@@ -1,0 +1,261 @@
+/* body
+    {
+      font-family: 'Open Sans', sans-serif;
+      font-family: 'Poppins', sans-serif;
+
+     }  */
+
+.header
+    {
+      display: flex;
+      justify-content: space-between;
+    }
+    .header a
+    {
+      border: 2px solid  hsla(322, 100%, 66%,0.6);
+      border-radius: 20px;
+      padding:5px 20px 5px 20px;
+      text-decoration: none;
+      color:  hsla(322, 100%, 66%,0.9);
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+    }
+    .second
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+      justify-content: center;
+    }
+    .second h2{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size:40px ;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+    .second p
+    {
+      max-width: 410px;
+      text-align: center;
+
+    }
+    .second a
+    {
+      background-color: hsl(322, 100%, 66%);
+      text-decoration: none;
+      color: white;
+      padding: 10px 30px;
+      border-radius: 20px;
+    }
+    .image
+    {
+      display: flex;
+      margin-top: 50px;
+      justify-content: center;
+    }
+    .image img
+    { 
+       max-width: 100%;
+       height: auto;
+      
+    }
+    .score
+    {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .score h1
+    {
+      font-family: 'Poppins', sans-serif;
+      font-size: 60px;
+      font-weight: 700;
+      margin: 0px;
+      
+    }
+    .score p
+    {
+      margin: 0px;
+      color: hsl(192, 100%, 9%);
+      opacity: 0.6;
+      
+    }
+    .score img
+    {
+     max-width: 30px; 
+    }
+    .content-right
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .imagecat
+    {
+      display: flex;
+      justify-content: space-around;
+    }
+    .imagecat img
+    {
+      max-width:50%;
+      height: auto;
+    }
+    .leftt
+    {
+      background-color: hsl(207, 100%, 98%) ;
+    }
+    .textpart
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .textpart h1
+    {
+      opacity: 0.8;
+    }
+    .textpart p{
+      max-width:450px;
+      opacity: 0.7;
+    }
+
+    .footer {
+        padding: 10rem;
+        background: hsl(192, 100%, 9%);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        margin-left:-10px;
+        margin-bottom: -10px;
+        margin-right: -10px;
+
+      }
+      .about,
+      .sign-in section {
+        max-width: 420px;
+        margin: 0 1rem;
+      }
+      #footer-logo {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(125deg)
+          brightness(103%) contrast(103%);
+        margin-bottom: 1.5rem;
+      }
+      .phone,
+      .email {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin: 1rem auto;
+      }
+      .email a {
+        color: white;
+        text-decoration: none;
+      }
+      .email a:hover {
+        color: rgb(52, 204, 250);
+        text-decoration: underline;
+      }
+      .media-icons {
+        display: flex;
+        gap: 1.5rem;
+        margin: 3rem 0 1rem 0;
+      }
+      .media-icons i {
+        color: white;
+        font-size: 2.5rem;
+      }
+      .media-icons i:hover {
+        color: rgb(52, 204, 250);
+      }
+      .sign-in h3 {
+        font-size: 1.8rem;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+      }
+      .sign-in form {
+        display: grid;
+        grid-template-columns: minmax(auto, 400px) auto;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+      }
+      .infield input {
+        width: 100%;
+        height: 3rem;
+        outline: none;
+        border: none;
+        border-radius: 0.3rem;
+        padding-left: 1rem;
+      }
+      .infield #error {
+        color: hsl(0, 100%, 63%);
+        font-size: 0.8rem;
+        margin: 0.5rem 0;
+        display: none;
+      }
+      .sign-in form button {
+        color: white;
+        background: hsl(322, 100%, 66%);
+        height: 3rem;
+        outline: none;
+        border: none;
+        border-radius: 0.3rem;
+        padding: 0.5rem 3rem;
+        font-size: 1.1rem;
+        cursor: pointer;
+      }
+      .sign-in form button:hover {
+        background: hsl(321, 100%, 78%);
+      }
+
+      .pattern-top-desktop
+      {
+        margin-top: 200px;
+        width:140%;
+        margin-bottom: -100px;
+        margin-left: -10px;
+      }
+      @media (max-width: 769px) {
+
+      .footer {
+        flex-direction: column-reverse;
+        gap: 5rem;
+        padding: 5rem 3rem;
+      }
+      .about,
+      .sign-in section {
+        margin: 0;
+      }
+      #footer-logo {
+        max-width: 15rem;
+        margin-bottom: 2rem;
+      }
+      .phone,
+      .email {
+        margin: 1.5rem auto;
+      }
+      .media-icons a i {
+        font-size: 2rem;
+      }
+      .sign-in form {
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: end;
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-left: 0;
+      }
+      .sign-in form .infield {
+        width: 100%;
+      }
+      .infield input {
+        width: 100%;
+      }
+      .infield #error {
+        text-align: right;
+      }
+      .sign-in .sign-in form button {
+        width: max-content;
+      }
+    }
